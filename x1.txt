@@ -1,0 +1,126 @@
+[
+    {
+          "title": "Pregunta estándar para GPT-4",
+          "create_time": 1707128799.455407,
+          "update_time": 1707128801.991279,
+          "mapping": {
+            "77e38290-7d72-4b4c-8ec7-a51d03d356c2": {
+              "id": "77e38290-7d72-4b4c-8ec7-a51d03d356c2",
+              "message": {
+                "id": "77e38290-7d72-4b4c-8ec7-a51d03d356c2",
+                "author": {
+                  "role": "system",
+                  "name": null,
+                  "metadata": {}
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                  "content_type": "text",
+                  "parts": [
+                    ""
+                  ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0,
+                "metadata": {
+                  "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all"
+              },
+              "parent": "aaa144c5-3539-4c5a-a4a4-bb8d0da9be77",
+              "children": [
+                "aaa28e51-8222-4a55-ad36-09097c1875d7"
+              ]
+            },
+            "aaa144c5-3539-4c5a-a4a4-bb8d0da9be77": {
+              "id": "aaa144c5-3539-4c5a-a4a4-bb8d0da9be77",
+              "message": null,
+              "parent": null,
+              "children": [
+                "77e38290-7d72-4b4c-8ec7-a51d03d356c2"
+              ]
+            },
+            "aaa28e51-8222-4a55-ad36-09097c1875d7": {
+              "id": "aaa28e51-8222-4a55-ad36-09097c1875d7",
+              "message": {
+                "id": "aaa28e51-8222-4a55-ad36-09097c1875d7",
+                "author": {
+                  "role": "user",
+                  "name": null,
+                  "metadata": {}
+                },
+                "create_time": 1707128799.456519,
+                "update_time": null,
+                "content": {
+                  "content_type": "text",
+                  "parts": [
+                    "START334455:\nPlease translate this to Spanish: This is a standard question for GPT-4."
+                  ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                  "timestamp_": "absolute",
+                  "message_type": null
+                },
+                "recipient": "all"
+              },
+              "parent": "77e38290-7d72-4b4c-8ec7-a51d03d356c2",
+              "children": [
+                "72331649-b5ad-43c3-87e5-92a18d61a198"
+              ]
+            },
+            "72331649-b5ad-43c3-87e5-92a18d61a198": {
+              "id": "72331649-b5ad-43c3-87e5-92a18d61a198",
+              "message": {
+                "id": "72331649-b5ad-43c3-87e5-92a18d61a198",
+                "author": {
+                  "role": "assistant",
+                  "name": null,
+                  "metadata": {}
+                },
+                "create_time": 1707128800.776913,
+                "update_time": null,
+                "content": {
+                  "content_type": "text",
+                  "parts": [
+                    "Esta es una pregunta estándar para GPT-4."
+                  ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 1,
+                "metadata": {
+                  "finish_details": {
+                    "type": "stop",
+                    "stop_tokens": [
+                      100260
+                    ]
+                  },
+                  "gizmo_id": null,
+                  "is_complete": true,
+                  "message_type": null,
+                  "model_slug": "gpt-4",
+                  "parent_id": "aaa28e51-8222-4a55-ad36-09097c1875d7",
+                  "timestamp_": "absolute"
+                },
+                "recipient": "all"
+              },
+              "parent": "aaa28e51-8222-4a55-ad36-09097c1875d7",
+              "children": []
+            }
+          },
+          "moderation_results": [],
+          "current_node": "72331649-b5ad-43c3-87e5-92a18d61a198",
+          "plugin_ids": null,
+          "conversation_id": "6cc6a2a8-ea43-4d35-999b-61c3e5ab2617",
+          "conversation_template_id": null,
+          "gizmo_id": null,
+          "is_archived": false,
+          "safe_urls": [],
+          "id": "6cc6a2a8-ea43-4d35-999b-61c3e5ab2617"
+        }
+    ]
